@@ -6,6 +6,11 @@
   justify-content: space-between;
   z-index: 1;
   align-items: center;
+  height: 30vh;
+
+  @media (max-width: 768px) {
+    height: 20vh;
+  }
 }
 
 .header-content {
@@ -19,9 +24,29 @@
   color: #000000;
 }
 
-.header img {
-  width: 300px;
-  height: auto;
+.header {
+  img {
+    width: 300px;
+    height: auto;
+  }
+
+  img.left {
+    height: 100%;
+    width: auto;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  img.right {
+    height: 100%;
+    width: auto;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
 }
 
 .header-content h1 {
