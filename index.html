@@ -14,8 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
+  <header style="width: 100%;">
     <div class="navbar">
       <img src="public/lego-logo.png" alt="LEGO® logo" class="logo">
 
@@ -45,12 +46,64 @@
     </div>
 
     <div id="items">
-      <div class="lego-item-card">
-        <img src="./public/items/0.png" alt="LEGO® set 1">
-        <h3>LEGO® set 1</h3>
-        <p>99,99€</p>
-      </div>
+      <lego-item-card
+        image="./public/items/2.png"
+        price="29.99€"
+        name="L’orchidée miniature"
+        age="18+"
+        bricks="274"
+      ></lego-item-card>
+
+      <lego-item-card
+        image="./public/items/0.png"
+        price="629.99€"
+        name="La tour Eiffel"
+        age="18+"
+        bricks="10 001"
+      ></lego-item-card>
+      
+      <lego-item-card
+        image="./public/items/1.png"
+        price="199.99€"
+        name="La Moto Ducati Panigale V4 S"
+        age="18+"
+        bricks="1 603"
+      ></lego-item-card>
+      
+      <lego-item-card
+        image="./public/items/3.png"
+        price="14.99€"
+        name="Les amoureux"
+        age="9+"
+        bricks="287"
+      ></lego-item-card>
+      
+      <lego-item-card
+        image="./public/items/4.png"
+        price="69.99€"
+        name="Le chasseur ARC-170"
+        age="9+"
+        bricks="497"
+      ></lego-item-card>
+      
+      <lego-item-card
+        image="./public/items/5.png"
+        price="49.99€"
+        name="La balade en moto de Hagrid™ et Harry"
+        age="9+"
+        bricks="617"
+      ></lego-item-card>
+      
+      <lego-item-card
+        image="./public/items/6.png"
+        price="79.99€"
+        name="LOVE"
+        age="18+"
+        bricks="791"
+      ></lego-item-card>
     </div>
   </div>
+
+  <script src="public/scripts/lego-item-card.js"></script>
 </body>
 </html>
