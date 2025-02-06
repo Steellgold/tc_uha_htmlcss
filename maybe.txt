@@ -1,0 +1,37 @@
+  <section id="categories">
+    <div>
+      <img src="./public/promo/star-wars.png" alt="Promotion Star Wars" class="promo-image">
+      
+      <div class="promo-content">
+        <h2>Que la force soit avec vous</h2>
+        <p>Retrouvez tous nos produits Star Wars à prix réduit</p>
+      </div>
+    </div>
+
+    <div>
+      <img src="./public/promo/harry-potter.png" alt="Promotion Harry Potter" class="promo-image">
+      
+      <div class="promo-content">
+        <h2>Magie et sorcellerie</h2>
+        <p>Retrouvez tous nos produits Harry Potter à prix réduit</p>
+      </div>
+    </div>
+
+    <div>
+      <img src="./public/promo/technic.png" alt="Promotion Technic" class="promo-image">
+      
+      <div class="promo-content">
+        <h2>Construisez des machines incroyables</h2>
+        <p>Retrouvez tous nos produits Technic à prix réduit</p>
+      </div>
+    </div>
+
+    <div>
+      <img src="./public/promo/creator.png" alt="Promotion Creator" class="promo-image">
+      
+      <div class="promo-content">
+        <h2>Libérez votre imagination</h2>
+        <p>Retrouvez tous nos produits Creator à prix réduit</p>
+      </div>
+    </div>
+  </section>
