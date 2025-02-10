@@ -79,12 +79,24 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    color: #fff;
 
     .socials-links {
-      a {
-        color: #fff;
-        font-size: 1.25rem;
-        text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      .icon {
+        display: flex;
+
+        width: 25px;
+        height: 25px;
+
+        align-items: center;
+        justify-content: center;
+
+        background-color: #16143E;
+        padding: 5px;
       }
     }
   }
