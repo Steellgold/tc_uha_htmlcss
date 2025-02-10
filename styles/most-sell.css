@@ -1,5 +1,5 @@
 #most-sell {
-  background-color: #F4F4F4;
+  background-color: #ffffff;
   width: 100%;
   padding: 20px 0 20px 0;
 }
@@ -36,7 +36,7 @@
 
 .lego-item-card {
   position: relative;
-  background-color: #F4F4F4;
+  background-color: #f7f7f7;
   padding: 6px;
   min-width: 210px;
   flex-shrink: 0;
