@@ -21,4 +21,17 @@ section#categories {
       text-align: center;
     }
   }
+
+  .c:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+    img {
+      filter: brightness(0.8);
+    }
+
+    h3 {
+      text-decoration: underline;
+    }
+  }
 }
