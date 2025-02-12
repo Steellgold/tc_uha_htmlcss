@@ -23,7 +23,7 @@ class LegoItemCategory extends HTMLElement {
 
     this.innerHTML = `
       <div class="c">
-        <img src="/public/items/categories/${image}.png" alt="${label}" class="category-image">
+        <img src="./public/items/categories/${image}.png" alt="${label}" class="category-image">
         <h3>${label}</h3>
       </div>
     `;
